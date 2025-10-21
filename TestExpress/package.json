@@ -1,0 +1,25 @@
+{
+  "name": "testexpress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "5.1.0",
+    "mongoose": "8.19.2"
+  },
+  "devDependencies": {
+    "@vitest/ui": "3.2.4",
+    "mongodb-memory-server": "10.2.3",
+    "supertest": "7.1.4",
+    "vitest": "3.2.4"
+  }
+}
