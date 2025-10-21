@@ -23,3 +23,7 @@ coverage/
 # Temporary files
 *.tmp
 *.temp
+
+# Archives
+*.rar
+*.zip
